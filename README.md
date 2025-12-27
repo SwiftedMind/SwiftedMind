@@ -5,9 +5,27 @@ Hey 👋,
 I’m Dennis, a software engineer in Germany focused on iOS + SwiftUI.  
 I build Swift packages and tools that keep codebases simple, readable, and fun to work in.
 
-## Pinned projects
+## Active Projects
 
-### 🤖 SwiftAgent
+### Tessera App
+
+A Mac app that uses my Tessera package to create seamless patterns in a simple and powerful visual editor. It turns shapes, images, text, and symbols into repeatable tiles or exact-size canvases, which is perfect for UI, print, branding, and motion.
+
+→ Website: https://tesserapatterns.com/
+
+→ App Store: https://apps.apple.com/us/app/tessera-seamless-patterns/id6756501042
+
+### Tessera
+A Swift package that turns a single tile of SwiftUI views into an **endlessly repeating, seamlessly wrapping pattern**.
+
+- Compose patterns from regular SwiftUI views
+- Toroidal edge-wrapping for seam-free repeats
+- Deterministic output via seeds (or randomize)
+- Export to PNG or vector-friendly PDF
+
+→ Repo: [/SwiftedMind/Tessera](https://github.com/SwiftedMind/Tessera)
+
+### SwiftAgent
 **Native Swift SDK for building autonomous AI agents**, inspired by Apple’s FoundationModels design philosophy.
 
 **Why it exists:** I wanted an Apple-feeling API for agent loops, tools, and structured outputs, but for other providers.
@@ -19,21 +37,7 @@ I build Swift packages and tools that keep codebases simple, readable, and fun t
 
 → Repo: [/SwiftedMind/SwiftAgent](https://github.com/SwiftedMind/SwiftAgent)
 
----
-
-### 🎨 Tessera
-A Swift package that turns a single tile of SwiftUI views into an **endlessly repeating, seamlessly wrapping pattern**.
-
-- Compose patterns from regular SwiftUI views
-- Toroidal edge-wrapping for seam-free repeats
-- Deterministic output via seeds (or randomize)
-- Export to PNG or vector-friendly PDF
-
-→ Repo: [/SwiftedMind/Tessera](https://github.com/SwiftedMind/Tessera)
-
----
-
-### ⏳ Queryable
+### Queryable
 Treat SwiftUI presentations as **async operations**: trigger an alert/sheet/dialog and `await` the user’s answer.
 
 - Present + await results from a single `async` call
@@ -42,9 +46,7 @@ Treat SwiftUI presentations as **async operations**: trigger an alert/sheet/dial
 
 → Repo: [/SwiftedMind/Queryable](https://github.com/SwiftedMind/Queryable)
 
----
-
-### 🧩 Processed
+### Processed
 A lightweight **loading-state handler for SwiftUI** that reduces repetitive “absent/loading/error/loaded” boilerplate.
 
 - Property wrappers: `@Loadable` + `@Process`
@@ -53,9 +55,7 @@ A lightweight **loading-state handler for SwiftUI** that reduces repetitive “a
 
 → Repo: [/SwiftedMind/Processed](https://github.com/SwiftedMind/Processed)
 
----
-
-### 🔎 monocle
+### monocle
 A read-only CLI for **Swift symbol lookup via SourceKit-LSP**, designed for coding agents (and humans) that need quick context.
 
 - Point it at a file/line/column and get definition + signature + docs
