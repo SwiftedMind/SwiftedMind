@@ -1,65 +1,27 @@
-# Dennis Müller (SwiftedMind)
+# Hey, I’m Dennis (SwiftedMind)
 
-Hey 👋,
+Freiburg, Germany | iOS + SwiftUI | building [Tessera](https://tesserapatterns.com) | [swiftedmind.com](https://www.swiftedmind.com) | [@SwiftedMind@hachyderm.io](https://hachyderm.io/@SwiftedMind)
 
-I’m Dennis, a software engineer in Germany focused on iOS + SwiftUI.  
-I build Swift packages and tools that keep codebases simple, readable, and fun to work in.
+> I build small, native Swift packages and apps that keep codebases simple, readable, and fun to work in.
 
-## Active Projects
+![Swift](https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?logo=swift&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?logo=apple&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white)
+![SwiftPM](https://img.shields.io/badge/SwiftPM-FA7343?logo=swift&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-4EAA25?logo=gnu-bash&logoColor=white)
 
-### Tessera App
+* * *
 
-A Mac app that uses my Tessera package to create seamless patterns in a simple and powerful visual editor. It turns shapes, images, text, and symbols into repeatable tiles or exact-size canvases, which is perfect for UI, print, branding, and motion.
+## Projects
 
-→ Website: https://tesserapatterns.com/
+| Project | Description |
+| --- | --- |
+| [Tessera: Seamless Patterns](https://tesserapatterns.com) • [App Store](https://apps.apple.com/us/app/tessera-seamless-patterns/id6756501042) | macOS app for generating seamless pattern tiles (or fixed-size canvases) and exporting PNG/PDF. |
+| [Tessera](https://github.com/SwiftedMind/Tessera) | Swift package that turns a SwiftUI tile into an endlessly repeating, seamlessly wrapping pattern. |
+| [SwiftAgent](https://github.com/SwiftedMind/SwiftAgent) | Swift SDK for agent loops, tool execution, and structured outputs (FoundationModels-inspired). |
+| [monocle](https://github.com/SwiftedMind/monocle) | Read-only SourceKit-LSP CLI for fast Swift symbol lookup (great for coding agents). |
+| [Queryable](https://github.com/SwiftedMind/Queryable) | Present an alert/sheet/dialog and `await` the user’s answer. |
+| [Processed](https://github.com/SwiftedMind/Processed) | Lightweight loading-state handling for SwiftUI (`@Loadable`, `@Process`). |
 
-→ App Store: https://apps.apple.com/us/app/tessera-seamless-patterns/id6756501042
-
-### Tessera
-A Swift package that turns a single tile of SwiftUI views into an **endlessly repeating, seamlessly wrapping pattern**.
-
-- Compose patterns from regular SwiftUI views
-- Toroidal edge-wrapping for seam-free repeats
-- Deterministic output via seeds (or randomize)
-- Export to PNG or vector-friendly PDF
-
-→ Repo: [/SwiftedMind/Tessera](https://github.com/SwiftedMind/Tessera)
-
-### SwiftAgent
-**Native Swift SDK for building autonomous AI agents**, inspired by Apple’s FoundationModels design philosophy.
-
-**Why it exists:** I wanted an Apple-feeling API for agent loops, tools, and structured outputs, but for other providers.
-
-- Agent loops + tool execution handled for you
-- Type-safe tools (FoundationModels-style `@Generable`)
-- Adapter-agnostic design (OpenAI included; more providers can be added)
-- Transcripts + token-usage tracking for debugging and product work
-
-→ Repo: [/SwiftedMind/SwiftAgent](https://github.com/SwiftedMind/SwiftAgent)
-
-### Queryable
-Treat SwiftUI presentations as **async operations**: trigger an alert/sheet/dialog and `await` the user’s answer.
-
-- Present + await results from a single `async` call
-- Works with alerts, confirmation dialogs, sheets, full-screen covers, and custom overlays
-- Useful for keeping business logic out of presentation code
-
-→ Repo: [/SwiftedMind/Queryable](https://github.com/SwiftedMind/Queryable)
-
-### Processed
-A lightweight **loading-state handler for SwiftUI** that reduces repetitive “absent/loading/error/loaded” boilerplate.
-
-- Property wrappers: `@Loadable` + `@Process`
-- Also works in non-view types via support protocols
-- Can be fully manual when defaults aren’t enough
-
-→ Repo: [/SwiftedMind/Processed](https://github.com/SwiftedMind/Processed)
-
-### monocle
-A read-only CLI for **Swift symbol lookup via SourceKit-LSP**, designed for coding agents (and humans) that need quick context.
-
-- Point it at a file/line/column and get definition + signature + docs
-- Stable JSON output for tooling (`--json`)
-- Works great when you need to understand external packages without opening Xcode
-
-→ Repo: [/SwiftedMind/monocle](https://github.com/SwiftedMind/monocle)
+Pinned repos below are the ones I’m most active on.
