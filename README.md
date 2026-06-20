@@ -17,7 +17,7 @@ Freiburg, Germany | iOS + SwiftUI | building [Tessera](https://tesserapatterns.c
 
 | Project | Description |
 | --- | --- |
-| [HyperSwitcher](https://hyperswitcher.app) • Mac App & Window Switcher. Switch to your most-used Mac apps and windows with fixed keyboard shortcuts. Arrange windows instantly with Quick Layout. Native, private, and built for macOS. |
+| [HyperSwitcher](https://hyperswitcher.app) | Mac App & Window Switcher. Switch to your most-used Mac apps and windows with fixed keyboard shortcuts. Arrange windows instantly with Quick Layout. Native, private, and built for macOS. |
 | [Tessera: Seamless Patterns](https://tesserapatterns.com) • [App Store](https://apps.apple.com/us/app/tessera-seamless-patterns/id6756501042) | macOS app for generating seamless pattern tiles (or fixed-size canvases) and exporting PNG/PDF. |
 | [Tessera](https://github.com/SwiftedMind/Tessera) | Swift package that turns a SwiftUI tile into an endlessly repeating, seamlessly wrapping pattern. |
 | [SwiftAgent](https://github.com/SwiftedMind/SwiftAgent) | Swift SDK for agent loops, tool execution, and structured outputs (FoundationModels-inspired). |
